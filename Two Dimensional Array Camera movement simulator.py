@@ -24,6 +24,9 @@ while i < boardHeight:
         j += 1
     i += 1
 
+# To know which is the camera first position
+board[boardHeight // 2][boardWidth // 2] = 'X'
+
 i = 0
 SEP = ' '
 lines = []
